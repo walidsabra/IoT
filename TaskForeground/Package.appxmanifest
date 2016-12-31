@@ -23,6 +23,7 @@
       <Extensions>
         <Extension Category="windows.backgroundTasks" EntryPoint="IoTTasks.WebServer">
           <BackgroundTasks>
+            <Task Type="general" />
             <Task Type="systemEvent" />
           </BackgroundTasks>
         </Extension>

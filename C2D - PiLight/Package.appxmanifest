@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="eb05c879-2c56-4dc4-8471-061431ac8e3b"
+    Name="da96dfd0-a37f-4ae2-8f2e-d9937dbc8d0b"
     Publisher="CN=walid"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="eb05c879-2c56-4dc4-8471-061431ac8e3b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="da96dfd0-a37f-4ae2-8f2e-d9937dbc8d0b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>C2D</DisplayName>
+    <DisplayName>C2D - PiLight</DisplayName>
     <PublisherDisplayName>walid</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="C2D.App">
+      EntryPoint="C2D___PiLight.App">
       <uap:VisualElements
-        DisplayName="C2D"
+        DisplayName="C2D - PiLight"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="C2D"
+        Description="C2D - PiLight"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

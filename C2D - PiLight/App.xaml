@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="C2D___PiLight.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:C2D___PiLight"
+    RequestedTheme="Light">
+
+</Application>

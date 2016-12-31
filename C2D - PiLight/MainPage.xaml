@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="C2D___PiLight.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:C2D___PiLight"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="25,25,0,0">
+            <TextBlock FontSize="18.667" Foreground="#FFF95306">IoT Core to IoT Hub Communication</TextBlock>
+            <StackPanel Orientation="Horizontal" Margin="0,15,0,0">
+                <TextBlock>Send Data:</TextBlock>
+                <TextBox x:Name="txtSend" Margin="5,0,0,0" Width="150" Height="28"></TextBox>
+                <Button x:Name="btnSend" Click="btnSend_Click" Margin="5,0,0,0">Send</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,15,0,0">
+                <TextBlock>Data Received:</TextBlock>
+                <TextBlock x:Name="txtReceived" Margin="5,0,0,0" Foreground="#FF0628FD"></TextBlock>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
